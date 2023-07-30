@@ -13,8 +13,8 @@ include 'config/database.php'
     <nav id="navbar" class="flex py-6 w-3/4 mx-auto justify-between items-center border-b-2">
         <div class="logo"><h2 class="text-2xl font-bold">Secrets</h2></div>
         <ul class="flex items-center gap-4">
-            <li class="text-stone-600 p-2 hover:bg-stone-600 hover:text-stone-100"><a href='index.php'>Home</a></li>
-            <li class="text-stone-600 p-2 hover:bg-stone-600 hover:text-stone-100"><a href='about.php'>About</a></li>
-            <li class="text-stone-600 p-2 hover:bg-stone-600 hover:text-stone-100"><a href='secrets.php'>secrets</a></li>
+            <li class="text-stone-600 p-2 hover:bg-stone-950 hover:text-stone-100 hover:rounded-sm"><a href='index.php'>Home</a></li>
+            <li class="text-stone-600 p-2 hover:bg-stone-950 hover:text-stone-100 hover:rounded-sm"><a href='about.php'>About</a></li>
+            <li class="text-stone-600 p-2 hover:bg-stone-950 hover:text-stone-100 hover:rounded-sm"><a href='secrets.php'>secrets</a></li>
         </ul>
     </nav>

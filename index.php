@@ -12,13 +12,15 @@
             <p class="text-red-500">No secrets Today</p>
             <?php endif; ?>
             <?php foreach($secrets as $secret): ?>
-            <div class="flex w-72 flex-col items-start text-slate-800 bg-slate-200 gap-2 rounded-sm mb-2 border-2 border-slate-500">
+            <div class="flex w-72 h-72 flex-col items-start text-slate-800 bg-slate-200 gap-2 rounded-sm mb-2 border-2 border-slate-500">
                     <div class="text-center w-full">
                         <img class="w-full h-24 object-cover" src="./Assets/secret1.jpg" alt="secret_img">
                     </div>
-                    <span class="inline"><?php echo $secret['date'];?></span>
-                    <span><?php echo $secret['name'];?></span>
-                    <p class="rounded-sm p-2"><?php echo $secret['body'];?></p>
+                    <div class="bg-slate-950 text-slate-100 p-2 w-full">
+                        <span class="mr-2"><?php echo $secret['name'];?></span>
+                        <span class="inline"><?php echo $secret['date'];?></span>
+                    </div>
+                    <p class="rounded-sm p-2 "><?php echo $secret['body'];?></p>
             </div>
             <?php endforeach; ?>
             </div>
